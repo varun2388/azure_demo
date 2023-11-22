@@ -1,1 +1,1 @@
-web: gunicorn -w 4 -b 0.0.0.0:8000 basic_flask_app:app
+web: gunicorn basic_flask_app:app
